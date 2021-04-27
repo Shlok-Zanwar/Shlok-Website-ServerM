@@ -1,0 +1,222 @@
+[
+    {
+        "type":"title",
+        "text":"Dock Forms"
+    },
+    {
+        "type":"paragraph",
+        "text":"A form application for mainly schools/colleges related applications such as conducting tests, surveys etc."
+    },
+    {
+        "type":"paragraph",
+        "text":"With this blog i will let you know each and every thing about the project 'Dock Forms' ."
+    },
+    {
+        "type":"subheading",
+        "text":"Technologies ..."
+    },
+    {
+        "type":"paragraph",
+        "text":"Front End"
+    },
+    {
+        "type":"list",
+        "list":[
+            "Html",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "type":"paragraph",
+        "text":"Back End"
+    },
+    {
+        "type":"list",
+        "list":[
+            "Flask Api",
+            "Python"
+        ]
+    },
+    {
+        "type":"paragraph",
+        "text":"Database"
+    },
+    {
+        "type":"list",
+        "list":[
+            "MySql Workbench",
+            "Json based database"
+        ]
+    },
+    {
+        "type":"subheading",
+        "text":"Key Features"
+    },
+    {
+        "type":"list",
+        "list":[
+            "A whole new functionality of rooms (Basically creating a group of accounts) and on connecting rooms to your forms you can restrict the form to only limited people.",
+            "Lock form Response (Currently accepting responses).",
+            "limiting to one response.",
+            "Edit form after it is created.",
+            "Home screen with all previously created forms and rooms.",
+            "Dedicated page for responses in a html table format.",
+            "Rooms editor and connect rooms to Forms dedicated pages.",
+            "Verification of OTP on mail using smtplib.",
+            "SQL Database as well as self created JSON based database",
+            "4 types of questions (mcq (with ans), mcq(survey type), range type, text type)"
+        ]
+    },
+
+    {
+        "type":"title",
+        "text":"Walkthrough"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Login/ Sign-Up Page"
+    },
+    {
+        "type":"paragraph",
+        "text":"Beginning with the login page, this page has the login and signup options. When you sign up using a new email-id you get a mail with the OTP which needs to be verified and only then your account is created."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/64Wjt9t/Login-Page.png",
+        "alt":"Login Page Image"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Form creation page"
+    },
+    {
+        "type":"paragraph",
+        "text":"This is where you can create your own form. One can choose between three types of questions."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/w02Hqm4/Questions.png",
+        "alt":"Questions"
+    },
+    {
+        "type":"list",
+        "list":[
+            "Multiple choice question"
+        ]
+    },
+    {
+        "type":"paragraph",
+        "text":"The multiple choice question provides you the freedom to have any number of options you want. Also You have a toggle for selecting whether the question has a correct answer or its a survey based question."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/866SKfw/MCQ-Question.png",
+        "alt":"MCQ"
+    },
+
+    {
+        "type":"list",
+        "list":[
+            "Text answer question"
+        ]
+    },
+    {
+        "type":"paragraph",
+        "text":"The text answer question provides a text-box for the respondent to answer."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/DRLpnpF/Text-Question.png",
+        "alt":"Text Answer"
+    },
+
+    {
+        "type":"list",
+        "list":[
+            "Range answer qustion"
+        ]
+    },
+    {
+        "type":"paragraph",
+        "text":"Range type qustions provide a box where the respondent can enter numeric values, this type of question is useful when there are mathematical questions and the answers range between some values due to complex calculations. "
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/FKvZb9v/Range-Question.png",
+        "alt":"Range Answer"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Room creation page"
+    },
+    {
+        "type":"paragraph",
+        "text":"A very simple page to create and add people to your room, just enter the user-id to add the user, you can also delete or add new users anytime later."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/pwfPPnP/Room-creation.png",
+        "alt":"Room creation image"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Home Page"
+    },
+    {
+        "type":"paragraph",
+        "text":"This is the page where all your previously created forms and rooms are displayed, you can create a new room/form from here or edit your previously created rooms/forms."
+    },
+    {
+        "type":"paragraph",
+        "text":"You can connect rooms from the rooms tab of each form. (You can connect multiple rooms to a form)."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/0s7s3zn/Home-page.png",
+        "alt":"Home page"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Respond to a form"
+    },
+    {
+        "type":"paragraph",
+        "text":"On the navbar there is a tab 'Give Response' where you just have to enter the id and then you are redirected to a new window where you have to respond to the form."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/PGn02yb/Respond-form.png",
+        "alt":"Respond"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Responses"
+    },
+    {
+        "type":"paragraph",
+        "text":"This is where all the responses to your form are stored. You can view, sort or delete them. "
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/BwqJYqH/Responses.png",
+        "alt":"Range Answer"
+    },
+
+    {
+        "type":"paragraph",
+        "text":"That is all for the walkthrough."
+    },
+    {
+        "type":"button",
+        "text":"Check source code",
+        "click":"https://github.com/Shlok-Zanwar/Dock-Forms"
+    }
+
+]

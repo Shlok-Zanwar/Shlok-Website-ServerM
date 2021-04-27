@@ -1,0 +1,153 @@
+[
+    {
+        "type":"title",
+        "text":"Hotel Management System"
+    },
+    {
+        "type":"paragraph",
+        "text":"A basic and well-designed interface for restraunt managment with a self created database system."
+    },
+    {
+        "type":"paragraph",
+        "text":"By the end of this blog you will get to know about a unique data management system and some good python tricks for your terminal data look better."
+    },
+
+    {
+        "type":"subheading",
+        "text":"Technologies ..."
+    },
+    {
+        "type":"list",
+        "list":[
+            "Python (Full base Code)",
+            "Tabulate library in Python",
+            "Json based database system."
+        ]
+    },
+    {
+        "type":"button",
+        "text":"Check source code",
+        "click":"https://github.com/Shlok-Zanwar/Hotel-Management-Terminal"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Key Features"
+    },
+    {
+        "type":"list",
+        "list":[
+            "Well designed interface (Tabulated)",
+            "Admin class features include checking the data for a particular date, modifying / updating menu, placing orders etc.",
+            "Employees can only take orders.",
+            "Self created database system using json and intelligence (A json file based database which works very well in this particular project).",
+            "A self updating html file for reference menu for the employee (The code will automatically change the html table contents when the availability is changed (using open, read, write file)."
+        ]
+    },
+
+    {
+        "type":"title",
+        "text":"Walkthrough"
+    },
+
+    {
+        "type":"subheading",
+        "text":"Login and admin features"
+    },
+    {
+        "type":"paragraph",
+        "text":"Firstly the app would ask for a password (There are two passwords, one for admins and the other for employees)."
+    },
+    {
+        "type":"paragraph",
+        "text":"After logging in with the admin password the user can :- "
+    },
+    {
+        "type":"list",
+        "list":[
+            "Check all order details for a date",
+            "Add new Item to menu",
+            "Modify existing menu",
+            "Print Menu",
+            "Place Order"
+        ]
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/qnGmSFk/Admin-login.png",
+        "alt":"Admin Login"
+    },
+
+
+    {
+        "type":"subheading",
+        "text":"Previous order details"
+    },
+    {
+        "type":"paragraph",
+        "text":"Using this menu the admin can check all the details of any day just by the date. If there are any orders of the entered date, the program will display the total orders, profit, billing and other details of the day followed by all the billings."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/rGnQN0Y/Check-Date-details.png",
+        "alt":"Date details"
+    },
+    {
+        "type":"paragraph",
+        "text":"This is maintained using a intelligent system."
+    },
+    {
+        "type":"paragraph",
+        "text":"Every time a use logs-in the program fetches the date from the system and creates a new file named 'data_+(date).json' if it is not present. Then a template is created and hence updated after every new order." 
+    },
+
+
+    {
+        "type":"subheading",
+        "text":"Menu"
+    },
+    {
+        "type":"paragraph",
+        "text":"This is one of the most important segments. The admin can create a new item, update previous item or even change the availability of any item anytime. Every item has the following segments. These details are also maintained using a menu.json file. "
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/5W0NNvS/Menu.png",
+        "alt":"Menu"
+    },
+    {
+        "type":"paragraph",
+        "text":"There is also a html table maintained for reference while taking order, this table only displays the currently available items. The html file is updated every time the menu is altered."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/drC8Q6Z/Html-Menu.png",
+        "alt":"Html Menu"
+    },
+
+
+    {
+        "type":"subheading",
+        "text":"Placing order"
+    },
+    {
+        "type":"paragraph",
+        "text":"This is a feature common to the admins and employees."
+    },
+    {
+        "type":"paragraph",
+        "text":"Placing orders is very easy, one just has to enter item ids referring to the html table one by one (until they want) and then an automated bill is generated for the order. Also the order is then automatically saved with the systems date file."
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/sQJRsMh/Place-Order.png",
+        "alt":"Image"
+    },
+
+
+    {
+        "type":"button",
+        "text":"Check source code",
+        "click":"https://github.com/Shlok-Zanwar/Hotel-managment-Terminal"
+    }
+]

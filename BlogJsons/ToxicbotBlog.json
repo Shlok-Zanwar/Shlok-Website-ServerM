@@ -1,0 +1,43 @@
+[
+    {
+        "type":"title",
+        "text":"Toxic Bot"
+    },
+    {
+        "type":"paragraph",
+        "text":"A discord voice bot for playing memes in your discord voice channel."
+    },
+    {
+        "type":"paragraph",
+        "text":"It is coded in 'discord.js'. Hosted on Heroku."
+    },
+    {
+        "type":"button",
+        "text":"Check Website",
+        "click":"https://toxicbotdiscord.github.io/"
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/7tynPG9/Logo.jpg",
+        "alt":"Image"
+    },
+    {
+        "type":"subheading",
+        "text":"Key Features"
+    },
+    {
+        "type":"list",
+        "list":[
+            "Some of the best memes.",
+            "Queue memes (Upto 7).",
+            "Manage Queue"
+        ]
+    },
+    {
+        "type":"paragraph",
+        "text":"Add it to your discord server from the website."
+    }
+    
+
+]
+

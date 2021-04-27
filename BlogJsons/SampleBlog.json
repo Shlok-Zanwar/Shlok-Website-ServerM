@@ -1,0 +1,33 @@
+[
+    {
+        "type":"title",
+        "text":"To-Do App"
+    },
+    {
+        "type":"paragraph",
+        "text":"This is a todo app ... very useful"
+    },
+    {
+        "type":"subheading",
+        "text":"Hello"
+    },
+    {
+        "type":"button",
+        "text":"Check it out",
+        "click":"http://localhost:3000/todo"
+    },
+    {
+        "type":"list",
+        "list":[
+            "Coffee",
+            "Tea",
+            "Milk"
+        ]
+    },
+    {
+        "type":"image",
+        "src":"https://i.ibb.co/7tynPG9/Logo.jpg",
+        "alt":"Image"
+    }
+
+]
