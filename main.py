@@ -14,6 +14,7 @@ app.add_middleware(
     expose_headers=["*"]
 )
 
+
 app.include_router(blog_router.router)
 app.include_router(model_router.router)
 
