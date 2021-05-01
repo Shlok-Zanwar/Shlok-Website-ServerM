@@ -1,28 +1,25 @@
-from fastapi import APIRouter, Depends, Request
-import json
-import time
+from fastapi import APIRouter, HTTPException, status
 
 router = APIRouter(
     tags=['Blogs'],
-    prefix="/blogs"
 )
 
-@router.get('/dock-forms')
-def dockForms():
-    file = open('./BlogJsons/DockFormsBlog.json', 'r+')
-    return ({"blogDetail": file.read()})
 
-@router.get('/todo-app')
-def todoApp():
-    file = open('./BlogJsons/TodoBlog.json', 'r+')
-    return ({"blogDetail": file.read()})
+blogChoice = {
+    "dock-forms": "./BlogJsons/DockFormsBlog.json",
+    "todo-app": "./BlogJsons/TodoBlog.json",
+    "toxicbot": "./BlogJsons/ToxicbotBlog.json",
+    "hotel-management": "./BlogJsons/HotelManagementBlog.json"
+}
 
-@router.get('/toxicbot')
-def toxicbot():
-    file = open('./BlogJsons/ToxicbotBlog.json', 'r+')
-    return ({"blogDetail": file.read()})
 
-@router.get('/hotel-managment')
-def hotelManagement():
-    file = open('./BlogJsons/HotelManagementBlog.json', 'r+')
-    return ({"blogDetail": file.read()})
+@router.get('/blogs/{blogName}')
+def dockForms(blogName: str):
+    # time.sleep(2)
+    try:
+        file = open(blogChoice[blogName], 'r+')
+        return ({"blogDetail": file.read()})
+    except:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
+
+
