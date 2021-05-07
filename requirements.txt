@@ -1,9 +1,5 @@
 fastapi
-Pillow
 uvicorn
 gunicorn==19.9.0
 uvloop
 httptools
-tensorflow-cpu
-opencv-python
-numpy
