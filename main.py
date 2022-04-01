@@ -1,9 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from Routers import blog_router
-# from Routers import socket_router
-# from Routers import mnist
-# from Routers import model_router
+from Routers import blog_router, ml_forum_model
 import uvicorn
 
 app = FastAPI()
@@ -18,10 +15,10 @@ app.add_middleware(
 )
 
 
-# app.include_router(mnist.router)
 app.include_router(blog_router.router)
+app.include_router(ml_forum_model.router)
 # app.include_router(socket_router.router)
 # app.include_router(model_router.router)
 
 # if __name__ == '__main__':
-#     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+#     uvicorn.run("main:app", host="localhost", port=8000, reload=True)
