@@ -1,5 +1,5 @@
 from fastapi import APIRouter, File
-# from Functions.income_functions import handleIncomePrediction
+from Functions.income_functions import handleIncomePrediction
 from Functions.mnist_functions import handleMnistPrediction
 from pydantic import BaseModel
 
