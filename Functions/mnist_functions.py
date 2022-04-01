@@ -6,7 +6,6 @@ from torchvision import transforms
 import PIL
 from PIL import Image
 import imutils
-from PIL import Image
 from io import BytesIO
 
 
