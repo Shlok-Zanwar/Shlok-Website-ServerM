@@ -34,6 +34,7 @@ async def create_file_3(
         schema: IncomeModelSchema
 ):
     # time.sleep(1.5)
+
     return {"prediction": handleIncomePrediction(
         [
             schema.age,
